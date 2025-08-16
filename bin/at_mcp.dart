@@ -1,6 +1,4 @@
 import 'package:at_mcp/mcp.dart';
-import 'package:at_mcp/tools/echo_tool.dart';
-import 'package:at_mcp/resources/info_resource.dart';
 
 void main(List<String> arguments) async {
   final server = McpServer(
