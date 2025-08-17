@@ -1,5 +1,5 @@
-name: at_mcp
-description: A basic MCP (Model Context Protocol) server implementation in Dart.
+name: at_talk
+description: A messaging application using AT Protocol for @xavier and @gary to communicate via stdin/stdout.
 version: 0.1.0
 repository: https://github.com/JeremyTubongbanua/at_mcp
 
@@ -7,13 +7,10 @@ environment:
   sdk: ^3.8.1
 
 dependencies:
-  dart_mcp: ^0.3.3
   at_client: ^3.0.77
   at_commons: ^4.0.7
   at_utils: ^3.0.17
-  at_demo_data: ^1.2.0
-  http: ^1.5.0
-  path: ^1.9.1
+  args: ^2.4.2
 
 dev_dependencies:
   lints: ^5.0.0
